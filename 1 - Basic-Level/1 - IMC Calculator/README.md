@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0 2px 0" class="preview-container">
   <h3 style="margin: 0 0 20px">🥇 Application Preview</h3>
-  <img style="height:250px; border-radius: 5px;" src="./src/img/img_preview.png"></img>
+  <img style="height:500px; border-radius: 10px;" src="https://github.com/ErickBraganca/javascript-projects-training/blob/3bb3d5633d279f1deba54e0d51ea2156335db4b6/1%20-%20Basic-Level/1%20-%20IMC%20Calculator/src/img/img_preview.PNG"></img>
 </div>
 
 <div style="margin: 10px 0 2px 0" class="description-container">
