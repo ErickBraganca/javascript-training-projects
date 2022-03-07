@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Resete de configuraçãoes*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*Configurações do viewport container*/
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #ecf0f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.selection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.function{
+    color: #646464;
+    font-family: 'Roboto', sans-serif;
+    border: solid 1px #b1b1b1;
+    font-weight: 600;
+    font-size: 1.25rem;
+    width: 100px;
+    border-radius: 0.25rem;
+}
+
+.actions_timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+}
+
+.icon{
+    border: none;
+    background: none;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.section {
+    display: none;
+}
+
+.actions {
+    display: none;
+}
+
+img{
+    height: 40px;
+    width: 40px;
+}
+
+.button{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+
+.selects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.watch{
+    background-image: url(../images/clock.png);
+    opacity: 0.5,;
+}
+.timer{
+    background-image: url(../images/timer.png);
+}
+.alarm{
+    background-image: url(../images/alarm.png); 
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.btn:active{
+    background-size: 55%;
+}
+
+.add{
+    background-image: url(../images/alarm-on.svg);
+}
+
+.off{
+    background-image: url(../images/alarm-off.svg); 
+}
+
+.zero{
+    background-image: url(../images/alarm-snooze.svg); 
+}
+.arrow{
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+
+.up{
+    background-image: url(/resources/images/chevron-down-outline.svg);
+}
+
+.down{
+    background-image: url(/resources/images/chevron-up-outline.svg);
+}
+
+.button:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.input{
+    background: transparent;
+    outline: none;
+    line-height: 2rem;
+    border: 1px solid #d6d6d6 ;
+    border-radius: 0.25rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    margin:0.5rem 0.25rem 0.5rem 0.25rem;
+    color: rgb(150, 150, 150);
+    }
+    
+.content{
+    max-width: 300px;
+    text-align: center;
+}
+
+.alarm_container{
+    margin-top: 0.25rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background: #ecf0f1;
+    box-shadow: inset 5px 5px 9px #d9ddde, inset -5px -5px 9px #ffffff;
+}
+.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+}
+
+h1, span, button{
+    font-size: 2.5rem;
+    color:#696969 ;
+}
+
+#clock:checked + label{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#timer:checked + label{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#alarm:checked + label{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
