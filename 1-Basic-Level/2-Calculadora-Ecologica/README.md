@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0 2px 0" class="preview-container">
   <h3 style="margin: 0 0 20px">🥇 Application Preview</h3>
-  <img style="height:250px; border-radius: 5px;" src=""></img>
+  <img style="height:400px; border-radius: 5px;" src="https://github.com/ErickBraganca/javascript-training-projects/blob/28c91f686a979ef22bf6e0cdf159b978edd17b54/1%20-%20Basic-Level/2%20-%20Calculadora%20Ecologica/src/img/img_preview.png"></img>
 </div>
 
 <div style="margin: 10px 0 2px 0" class="description-container">
