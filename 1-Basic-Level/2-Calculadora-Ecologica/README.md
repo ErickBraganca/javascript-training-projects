@@ -7,7 +7,7 @@
 
 <div style="margin: 10px 0 2px 0" class="description-container">
   <h3>📜 Descripition</h3>
-  <span>That is a small application, developed to training some HTML, CSS and JavaScript skills.<br>The project is fundamentated on equivalency between eatch kW/h generated from a fotovoltaic/solar source and the carbon avoided and the number of trees grown.<br>To do this, we take from the user, the average monthly generation in kw/h and from this value we calculate, Anual Average, Carbon Average and Trees Grown.<br>To reference visit:<br>https://my.solarview.com.br/base-conhecimento/equivalencias-de-economia-sustentabilidade/</span>
+  <span>That is a small application, developed to training some HTML, CSS and JavaScript skills.<br>The project is fundamentated on equivalency between eatch kW/h generated from a fotovoltaic/solar source and the carbon avoided and the number of trees grown.<br>To do this, we take from the user, the average monthly generation in kw/h and from this value we calculate, Anual Average, Carbon Average and Trees Grown.<br>To reference visit: <br>https://my.solarview.com.br/base-conhecimento/equivalencias-de-economia-sustentabilidade/</span>
 </div>
 
 <div class="tech-container">
