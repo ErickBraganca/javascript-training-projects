@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0 2px 0" class="preview-container">
   <h3 style="margin: 0px">🥈 Application Preview</h3>
-  <img style="height:500px; border-radius: 10px;" src=""></img>
+  <img style="height:250px; border-radius: 10px;" src="https://github.com/ErickBraganca/javascript-training-projects/blob/0768b38de6ac90cb78ed5236375f0361322b9d5b/2-Intermediate-Level/1-Some-Time-Static/src/images/img_preview.png"></img>
 </div>
 
 <div style="margin: 10px 0 2px 0" class="description-container">
