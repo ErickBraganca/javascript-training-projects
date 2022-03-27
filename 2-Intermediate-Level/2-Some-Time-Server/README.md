@@ -14,12 +14,8 @@
 
 ##  🚦 Setup and Run
 ### 🚧 Pré-requisitos
-<span style="margin-botton: 5px">
-Antes de começar, você vai precisar ter instalado em sua máquina o Node.js:
-Before starting, you will need to have Node.js installed on your machine:
-<br>
-[Node.js](https://nodejs.org/en/). 
-</span>
+##### Antes de começar, você vai precisar ter instalado em sua máquina o Node.js - [Node.js](https://nodejs.org/en/).
+##### Before starting, you will need to have Node.js installed on your machine - [Node.js](https://nodejs.org/en/). 
 
 ### 🚀 Run
 #### Clone this repository.
@@ -109,7 +105,6 @@ http://localhost:3000/
   <h3>🔨 Tools</h3>
   <img align="left" alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-    <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
 </div><br>
 
 
