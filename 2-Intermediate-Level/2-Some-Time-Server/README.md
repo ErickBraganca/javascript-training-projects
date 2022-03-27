@@ -16,6 +16,8 @@
 ### 🚧 Pré-requisitos
 <span style="margin-botton: 5px">
 Antes de começar, você vai precisar ter instalado em sua máquina o Node.js:
+Before starting, you will need to have Node.js installed on your machine:
+<br>
 [Node.js](https://nodejs.org/en/). 
 </span>
 
@@ -33,7 +35,7 @@ $ npm install
 $ npm run dev
 
 #### Acess the application on localhost.
-[local host](http://localhost:3000/)
+http://localhost:3000/
 
 ## 🎯 Description
 #### The project consists in a time aplication with some functions:
