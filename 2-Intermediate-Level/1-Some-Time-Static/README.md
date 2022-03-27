@@ -31,16 +31,12 @@
 
 
 ## 🎯 Description
-  <span>
-    The project consists in a time aplication with some functions:
-    <p><strong>Clock: </strong>A function that show the corrently time when the application is initiated.</p>
-    <p><strong>Timer: </strong>A progressive counter, that from a quantity of hours, minutes or seconds entered
-    by user progress second by second to the total of milliseconds.</p>
-    <p><strong>Alarm: </strong>A regressive counter, that from year, month, day, hour, minutes and seconds
-    entered by user, regress from the total of milliseconds to zero</p>
-    <p><strong>Notifier: </strong>A function that use the Notification API of browser to show
-    a Push Notification when the time is finished</p>               
-  </span>
+#### The project consists in a time aplication with some functions:
+
+#### <img style="height: 30px" src="https://github.com/ErickBraganca/javascript-training-projects/blob/dc4f5ba9e220452f3b55cd164edcc4d9173bf858/2-Intermediate-Level/1-Some-Time-Static/src/images/clock.png"></img> Clock: A function that show the corrently time in application is initiated.
+#### <img style="height: 30px" src="https://github.com/ErickBraganca/javascript-training-projects/blob/dc4f5ba9e220452f3b55cd164edcc4d9173bf858/2-Intermediate-Level/1-Some-Time-Static/src/images/timer.png">  Timer: A progressive counter, use the time entered by user progress second by second to the total of milliseconds.
+#### <img style="height: 30px" src="https://github.com/ErickBraganca/javascript-training-projects/blob/dc4f5ba9e220452f3b55cd164edcc4d9173bf858/2-Intermediate-Level/1-Some-Time-Static/src/images/alarm.png">  Alarm: A regressive counter, that from date and time entered by user, regress from the total of milliseconds to zero</p>
+#### <img style="height: 30px" src="https://github.com/ErickBraganca/javascript-training-projects/blob/dc4f5ba9e220452f3b55cd164edcc4d9173bf858/2-Intermediate-Level/1-Some-Time-Static/src/images/alert.png">  Notifier: A function that use the Notification API of browser to show a Push Notification when the time is finished
 
 ## 🔩 Structure
 
@@ -89,7 +85,7 @@
    - [x] JavaScript - Events and Listeners of DOM.
    - [x] JavaScript - Flux Control, Conditionals.
    - [x] JavaScript - Image Handdling. 
-   - [ ] JavaScript - Audio Handdling
+   - [x] JavaScript - Audio Handdling
    - [x] JavaScript - Template String.
    - [x] JavaScript - ES Modules - ESM.
    - [x] JavaScript - Audio Play.
