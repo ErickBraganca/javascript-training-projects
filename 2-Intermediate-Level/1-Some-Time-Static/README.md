@@ -5,17 +5,32 @@
   <img style="height:250px; border-radius: 10px;" src="https://github.com/ErickBraganca/javascript-training-projects/blob/0768b38de6ac90cb78ed5236375f0361322b9d5b/2-Intermediate-Level/1-Some-Time-Static/src/images/img_preview.png"></img>
 </div>
 
-<div style="margin: 10px 0 2px 0" class="description-container">
-  <h3>📜 Motivation</h3>
-  <span style="margin-botton: 5px">
+
+  ## 📢 Warning
+  <span>
+   This is my first JavaScript project where i used some intermediate concepts of the language.
+    <br>
+    Because of this it is very likely not to have implemented the best practices of code and architecture.
+  </span>
+
+
+  ## 🚀 Run Project 
+<span style="margin-botton: 5px">
+  PT-BR - Abra o index.html com o LiveServer se estiver usando VSCode ou algum outro servidor de desenvolvimento.
+  <br>
+  EN-US - Open index.html with LiveServer in VSCode or some other development server.
+</span>
+
+## 📜 Motivation
+<span style="margin-botton: 5px">
   This project was developed to improve my skills in HTML, CSS but mostly Vanilla JavaScript.
   <br>
-  Was the first project that that i used more intermediate concepts like, ES Modules - ESM , Import Export, Audio Play,  Object Literals, CountDown, Push Notification, Destructuring and Separation of Concerns.
-  </span>
-</div>
+  Was the first project that that i used more intermediate concepts like ES Modules - ESM , Import Export, Audio Play,  Object Literals, CountDown,
+  Push Notification, Destructuring and Separation of Concerns.
+</span>
 
-<div style="margin: 10px 0 2px 0" class="description-container">
-  <h3>🎯 Description</h3>
+
+## 🎯 Description
   <span>
     The project consists in a time aplication with some functions:
     <p><strong>Clock: </strong>A function that show the corrently time when the application is initiated.</p>
@@ -26,9 +41,8 @@
     <p><strong>Notifier: </strong>A function that use the Notification API of browser to show
     a Push Notification when the time is finished</p>               
   </span>
-</div>
 
-<h3>🔩 Structure</h3>
+## 🔩 Structure
 
   ```
 📂1-Some-Time-Static
