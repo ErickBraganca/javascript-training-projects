@@ -18,9 +18,6 @@
 ##### Before starting, you will need to have Node.js installed on your machine - [Node.js](https://nodejs.org/en/). 
 
 ### 🚀 Run
-#### Clone this repository.
-$ git clone <https://github.com/ErickBraganca/javascript-training-projects.git
-
 #### Access project directory/cmd
 $ cd javascript-training-projects/2-Intermediate-Level/2-Some-Time-Server/
 
