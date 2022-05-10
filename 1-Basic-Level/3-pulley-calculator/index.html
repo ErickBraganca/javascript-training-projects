@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Erick Bragança">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Pulley Calculator</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-content">
+            <header class="header-section">
+                <img src="src/image/img_icon.png" alt="Icon">
+                <h1>Relação de Transmissão</h1>
+            </header>
+            <main class="data-section">
+                <section class="motor-section">
+                    <fieldset class="data-group">
+                        <label for="D1">Diâmetro Polia Motora</label>
+                        <input type="text" id="D1" class="data" placeholder="Diâmetro em mm">
+                    </fieldset>
+                    <fieldset class="data-group">
+                        <label for="n1">Velocidade Polia Motora</label>
+                        <input type="text" id="n1" class="data" placeholder="Velocidade em rpm">
+                    </fieldset>
+                </section>
+                <section class="driven-section">
+                    <fieldset class="data-group">
+                        <label for="D2">Diâmetro Polia Movida</label>
+                        <input type="text" id="D2" class="data" placeholder="Diâmetro em mm">
+                    </fieldset>
+                    <fieldset class="data-group">
+                        <label for="n2">Velocidade Polia Movida</label>
+                        <input type="text" id="n2" class="data" placeholder="Velocidade em rpm">
+                    </fieldset>
+                </section>
+                <section class="buttons-section">
+                    <button id="calc" type="button">Calcular</button>
+                    <button id="clean" type="button">Limpar</button>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="./src/script/app.js"></script>
+</body>
+</html>
