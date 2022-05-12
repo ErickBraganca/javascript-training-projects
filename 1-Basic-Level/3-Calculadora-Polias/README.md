@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0 2px 0" class="preview-container">
   <h3 style="margin: 0 0 20px">🥇 Application Preview</h3>
-  <img style="height:400px; border-radius: 5px;" src=""></img>
+  <img style="height:400px; border-radius: 5px;" src="https://github.com/ErickBraganca/javascript-training-projects/blob/3b48190b22526726f331b1a70fc8f6df4e6155eb/1-Basic-Level/3-pulley-calculator/src/image/img_preview.png"></img>
 </div>
 
 <div style="margin: 10px 0 2px 0" class="description-container">

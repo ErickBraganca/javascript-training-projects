@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <title>QRL Generator</title>
+</head>
+<body>
+    <div class="view-container">
+        <div class="main-content">
+            <aside class="side-container">
+                <header class="header-container">
+                    <h1>Gerador de QR Code</h1>
+                </header>
+                <section class="data-container">
+                    <fieldset class="field-group">
+                        <label for="type">Tipo de Dado:</label>
+                        <select id="type" class="type">
+                            <option value="link">Link</option>
+                            <option value="text">Texto</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="field-group">
+                        <label for="size">Tamanho da Imagem:</label>
+                        <select id="size">
+                            <option value="50">50px</option>
+                            <option value="100">100px</option>
+                            <option value="150">150px</option>
+                            <option value="200">200px</option>
+                            <option value="250">250px</option>
+                            <option value="300">300px</option>
+                            <option value="350">350px</option>
+                            <option value="400">400px</option>
+                            <option value="450">450px</option>
+                            <option value="500">500px</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="field-group">
+                        <label for="data">Informação:</label>
+                        <textarea class="input-data" id="data" cols="30" rows="5"></textarea>
+                    </fieldset>
+                </section>
+                <section class="button-container">
+                    <button type="button" id="add" class="add"><i class="fas fa-sign-out-alt"></i></button>
+                    <button type="button" id="delet" class="clean"><i class="fas fa-window-close"></i></button>
+                    <button type="button" id="clean" class="delete"><i class="fas fa-trash"></i></button>
+                </section>
+            </aside>
+            <main id="app" class="main-container">
+                <span>Click com o botão direito para fazer download da imagem</span>
+            </main>
+        </div>
+    </div>
+    <script src="src/script/app.js"></script>
+</body>
+
+</html>
