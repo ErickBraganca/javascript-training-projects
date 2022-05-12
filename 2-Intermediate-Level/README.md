@@ -5,4 +5,4 @@
   
 - 1 - Some Time Static
 - 2 - Some Time Server
-- 2 - QR Code Generator
+- 3 - QR Code Generator
