@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.view-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ecf0f1;
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    max-width: 650px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    border: 1px solid #c8c8c8;
+}
+
+.side-container{
+    height: 100%;
+    background-color: #fff;
+    transition: 0.25s ease-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem 0 0 1rem;
+    border-right: 1px solid #c8c8c8;
+    
+}
+
+.header-container{
+    background-color: #003145;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    border-radius: 1rem 0 0 0 ;
+}
+
+.data-container{
+    width: 100%;
+    padding: 0 1rem 0 1rem;
+}
+
+
+h1{
+    font-size: 2rem;
+}
+
+.field-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input, 
+select{
+    background-color: #ecf0f1;
+    height: 30px;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(200, 200, 200);
+    width: 100%;
+}
+
+option{
+ font-size: 1.5rem;   
+}
+
+label{
+   font-size: 1.5rem; 
+   font-weight: 600;
+}
+
+fieldset{
+    border: none;
+    margin-top: 1rem;
+}
+
+.button-container{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+button{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
+    border: none;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+button i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+textarea{
+    font-size: 1.5rem;
+    resize:none;
+    outline: none;
+    background-color: #ecf0f1;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(200, 200, 200);
+}
+
+.add{
+    background-color: #009879
+}
+
+.clean{
+    background-color: #f80
+}
+
+.delete{
+    background-color: #ff5100;
+}
+
+.main-container{
+    min-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.qrcode-img{
+    border-radius: 1rem;
+    border: 2px solid #ff51005b;
+    width: fit-content
+}
+
+.qrcode-img img{
+    margin: 0.5rem;
+    transition: 0.25s ease-in;
+}
+
+.expanded{
+    width: 300px; 
+}
+
+.main-container span{
+    font-size: 1.5rem;
+    text-align: center;
+    color: lightsteelblue;
+    text-transform: uppercase;
+    width: 200px;
+}
