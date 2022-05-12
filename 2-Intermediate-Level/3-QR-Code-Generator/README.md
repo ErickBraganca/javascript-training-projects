@@ -2,7 +2,7 @@
 
 <div style="margin: 10px 0 2px 0" class="preview-container">
   <h3 style="margin: 0 0 20px">🥇 Application Preview</h3>
-  <img style="height:400px; border-radius: 5px;" src=""></img>
+  <img style="height:400px; border-radius: 5px;" src="https://github.com/ErickBraganca/javascript-training-projects/blob/24e2dbac7b625df5731efbc907c0bd48245467f1/2-Intermediate-Level/3-QR-Code-Generator/src/image/img_preview.png"></img>
 </div>
 
 <div style="margin: 10px 0 2px 0" class="description-container">
