@@ -51,7 +51,7 @@ btnCalc.addEventListener("click", function () {
         calcVelocityMovida() //Function 4
     }
     else {
-        alert("Apenas três campos preenchidos é válido")
+        alert("Prencha três campos")
     };
 })
 
