@@ -6,4 +6,3 @@
 - 1 - IMC Calculator
 - 2 - Calculadora Ecologica
 - 3 - Calculadora de Polias
-
