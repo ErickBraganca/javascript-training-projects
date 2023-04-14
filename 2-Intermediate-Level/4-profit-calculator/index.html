@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retorno de Investimentos</title>
+    <link rel="stylesheet" href="src/style/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script defer src="src/script/index.js"></script>
+</head>
+
+<body>
+    <div class="view-container">
+        <main class="main-container">
+            <section class="input-container">
+                <div class="input-group">
+                    <fieldset class="field-group">
+                        <label for="amount">Investimento:</label>
+                        <input type="number" id="amount" class="input" placeholder="Valor a Investir (R$)">
+                    </fieldset>
+                    <fieldset class="field-group">
+                        <label for="index">Indexador:</label>
+                        <select name="selection" id="index">
+                            <option value="SELIC">SELIC</option>
+                            <option value="CDI">CDI</option>
+                            <option value="IPCA">IPCA</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <div class="input-group">
+                    <fieldset class="field-group">
+                        <label for="interval">Intervalo:</label>
+                        <select id="interval">
+                            <option value="month">Meses</option>
+                            <option value="year">Anos</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="field-group">
+                        <label for="time">Tempo</label>
+                        <input type="text" id="time">
+                    </fieldset>
+                </div>
+                <div class="input-group">
+                    <fieldset class="field-group">
+                        <label for="bond">Título de Investimento:</label>
+                        <select name="selection" id="bond">
+                            <option value="CDB">Certificado de Depósito | CDB</option>
+                            <option value="LCI">Letra de Crédito Imobiliário | LCI</option>
+                            <option value="LCA">Letra de Crédito Agropecuário | LCA</option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="field-group">
+                        <label for="rate">Rentabilidade:</label>
+                        <input type="text" id="rate" value="100%" class="investiment"
+                            plateholder="Retorno Indexado (%)">
+                    </fieldset>
+                </div>
+                <div class="action-container">
+                    <div class="button-container">
+                        <button type="button" id="add" class="add"><i class="fas fa-sign-out-alt"></i></button>
+                        <button type="button" id="delete" class="delete"><i class="fas fa-window-close"></i></button>
+                        <button type="button" id="clean" class="clean"><i class="fas fa-trash"></i></button>
+                    </div>
+                    <div class="option-container">
+                        <fieldset class="field-option">
+                            <label for="accumulate">Acumulado:</label>
+                            <input type="radio" id="accumulate" name="modal">
+                        </fieldset>
+                        <fieldset class="field-option">
+                            <label for="profit">Rendimento:</label>
+                            <input type="radio" id="profit" name="modal">
+                        </fieldset>
+                    </div>
+                </div>
+            </section>
+            <section class="result-container" id="app">
+            </section>
+        </main>
+    </div>
+</body>
+</html>
