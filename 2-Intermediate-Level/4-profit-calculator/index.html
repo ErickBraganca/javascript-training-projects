@@ -8,13 +8,14 @@
     <title>Retorno de Investimentos</title>
     <link rel="stylesheet" href="src/style/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <script defer type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script defer src="src/script/index.js"></script>
 </head>
 
 <body>
     <div class="view-container">
         <main class="main-container">
+            <header class="header-container">
+                <h1>Investiment Calculator</h1>
+            </header>
             <section class="input-container">
                 <div class="input-group">
                     <fieldset class="field-group">
@@ -24,7 +25,7 @@
                     <fieldset class="field-group">
                         <label for="index">Indexador:</label>
                         <select name="selection" id="index">
-                            <option value="SELIC">SELIC</option>
+                            <option value="Selic">SELIC</option>
                             <option value="CDI">CDI</option>
                             <option value="IPCA">IPCA</option>
                         </select>
@@ -76,9 +77,21 @@
                     </div>
                 </div>
             </section>
-            <section class="result-container" id="app">
-            </section>
         </main>
+        <footer class="footer-container">
+            <section class="result-container" id="app">
+                <div class="result-content">
+
+                </div>
+                <div class="graph-content">
+                    <canvas id="graph"></canvas>
+                </div>
+            </section>
+        </footer>
     </div>
+    <script type="module">
+        import { App } from './src/script/index.js'
+        App.start()
+    </script>
 </body>
 </html>

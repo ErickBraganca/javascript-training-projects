@@ -1,4 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
@@ -12,23 +12,39 @@
     width: 100vw;
     height: 100vh;
     background-color: #ecf0f1;
-    font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: start;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .main-container {
     max-width: 500px;
-    background-color:lightslategrey;
+    background-color:#fff;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
-    padding: 1rem;
     margin: 1rem;
     box-shadow: rgb(50 50 93 / 25%) 0px 2px 5px -1px, rgb(0 0 0 / 30%) 0px 1px 3px -1px;
     border: none;
+    font-family: 'Roboto', sans-serif;
+}
 
+.header-container{
+    width: 100%;
+    background-color:#37474f;
+    height: 5rem;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.input-container{
+    padding:  1rem;
 }
 
 .input-group {
@@ -36,11 +52,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%
+    width: 100%;
 }
 
 h1 {
     font-size: 2rem;
+    font-family: Rajdhani;
 }
 
 .field-group {
@@ -67,7 +84,7 @@ option {
 label {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: #545454;
 }
 
 fieldset {
@@ -142,4 +159,20 @@ button:hover {
 
 .delete {
     background-color: #ff5100;
+}
+
+.footer-container{
+    margin-bottom: 0;
+    width: 100%;  
+    height: 100%;
+    background-color: #37474f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.graph-content{
+    width: fit-content;
 }
